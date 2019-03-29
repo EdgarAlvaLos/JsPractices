@@ -46,3 +46,18 @@ document.write("<ul>");
 
 document.write("</ul>");
 
+
+//busquedas en el arreglo lenguaje 
+
+var resultado= lenguajes.find(function(lenguajes){
+               return lenguajes =="PHP"; 
+               
+               });
+console.log(resultado);
+
+//reduccion de de busqueda con una funcion flecha  *-*--*-*-*-*-*-*-*-*--*
+//find() tambien puede buscar el indice con find index, y es igual solo se agrega el findIndex
+
+var resultado= lenguajes.find(lenguajes  => lenguajes =="PHP");
+console.log(resultado);
+
